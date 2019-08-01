@@ -1,0 +1,18 @@
+TP3: More on 3D transformations
+
+
+Use matrix multiplication instead of rotation+translation to fix the planet’s rotation around the sun.
+
+2. Change glOrtho and use gluPerspective instead. Remember to add a translation in Z axis (-30 units).
+
+3. gluLookAt. Configure the camera and put the earth always at the center of it.
+
+4. Camera trackball.
+
+Render a 3D Gizmo. Complete the 3 defined functions, marked ad (1) (2) (3) on the given source code. 
+
+The first function will capture keyboard events, the second will capture mouse click and the third the mouse movement.
+
+The keyboard must allow to move the camera in ZX plane.
+
+The mouse must allow to rotate the scene.
